@@ -3,7 +3,7 @@ let ws;
 function connectWebSocket() {
   // 1. Create an instance of a WebSocket pointing to a specific server and port
   ws = new WebSocket(
-    'wss://sqlabs-leumi-bank-nodejs-jul24-prod-cu8z.onrender.com'
+    'wss://sqlabs-leumi-bank-nodejs-jul24-prod-09t7.onrender.com'
   );
 
   // 2. Event handling - onopen, onmessage, onclose
